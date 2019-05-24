@@ -1,14 +1,16 @@
 <?php include "header.php"; ?>
-    <div class="uk-grid-collapse uk-grid" uk-grid="">
+    <div id="box1" class="uk-grid-collapse uk-grid" uk-grid="">
         <div class="uk-width-expand uk-first-column">
             <div class="uk-grid-collapse box5 uk-height-1-1 uk-grid" uk-grid="">
-                <div class="uk-width-auto@s uk-first-column">
-                    <div class="box6 uk-height-1-1"><img src="imgs/mu1.png" alt=""></div>
+                <div class="uk-width-auto uk-first-column">
+                    <div class="box6 uk-height-1-1"><img src="imgs/mu.png" alt=""></div>
                 </div>
-                <div class="uk-width-expand@s">
-                    <div class="uk-padding-small">
-                        <h5 class="uk-margin-remove title_db">Manchester United</h5>
-                        <span>43‘ Lukaku, 67’ Raford</span>
+                <div class="uk-width-expand">
+                    <div class="uk-padding-small box1">
+                        <div>
+                            <h5 class="uk-margin-remove title_db">Manchester United</h5>
+                            <span>43‘ Lukaku, 67’ Raford</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -21,13 +23,15 @@
         </div>
         <div class="uk-width-expand">
             <div class="uk-grid-collapse box5 uk-height-1-1 uk-grid" uk-grid="">
-                <div class="uk-width-auto@s">
-                    <div class="box6 uk-height-1-1"><img src="imgs/fcb1.png" alt=""></div>
+                <div class="uk-width-auto">
+                    <div class="box6 uk-height-1-1"><img src="imgs/barca.png" alt=""></div>
                 </div>
-                <div class="uk-width-expand@s uk-flex-first@s uk-first-column">
-                    <div class="uk-padding-small uk-text-right">
-                        <h5 class="uk-margin-remove title_db">Barcenona</h5>
-                        <span>43‘ Lukaku, 67’ Raford</span>
+                <div class="uk-width-expand uk-flex-first uk-first-column">
+                    <div class="uk-padding-small box1 uk-text-right">
+                        <div>
+                            <h5 class="uk-margin-remove title_db">Barcenona</h5>
+                            <span>43‘ Lukaku, 67’ Raford</span>
+                        </div>
                     </div>
                 </div>
             </div>
