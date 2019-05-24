@@ -7,10 +7,8 @@
                 </div>
                 <div class="uk-width-expand">
                     <div class="uk-padding-small box1">
-                        <div>
-                            <h5 class="uk-margin-remove title_db">Manchester United</h5>
-                            <span>43‘ Lukaku, 67’ Raford</span>
-                        </div>
+                        <h5 class="uk-margin-remove title_db uk-text-truncate">Manchester United</h5>
+                        <span class="uk-text-truncate">43‘ Lukaku, 67’ Raford</span>
                     </div>
                 </div>
             </div>
@@ -28,14 +26,15 @@
                 </div>
                 <div class="uk-width-expand uk-flex-first uk-first-column">
                     <div class="uk-padding-small box1 uk-text-right">
-                        <div>
-                            <h5 class="uk-margin-remove title_db">Barcenona</h5>
-                            <span>43‘ Lukaku, 67’ Raford</span>
-                        </div>
+                        <h5 class="uk-margin-remove title_db uk-text-truncate">Barcenona</h5>
+                        <span class="uk-text-truncate">43‘ Lukaku, 67’ Raford</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div style="position:relative; padding-bottom:56.25%; overflow:hidden;"><iframe src="https://cdn.jwplayer.com/players/az6jjFJU-6M37AJhp.html" width="100%" height="100%" frameborder="0" scrolling="auto" allowfullscreen style="position:absolute;"></iframe></div>
+    <div>
+        <iframe class="uk-height-1-1" src="http://themes.cathtmlcss.net/2019/05/chatbot/chat_mobile.php" width="100%" height="700"></iframe>
+    </div>
 <?php include "footer.php"; ?>
