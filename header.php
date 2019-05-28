@@ -40,3 +40,4 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content">
+<?php include('menu_mobile1.php'); ?>
