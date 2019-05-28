@@ -18,7 +18,7 @@
 
         </div>
         <div class="uk-navbar-center">
-            <a class="uk-navbar-item uk-logo" href="#"><img src="imgs/logo1.png" alt=""></a>
+            <a class="uk-navbar-item uk-logo" href="."><img src="imgs/logo1.png" alt=""></a>
         </div>
         <div class="uk-navbar-right">
 
@@ -30,8 +30,15 @@
                             <canvas width="30" height="30"></canvas>
                         </div>
                     </a>
-                    <div class="uk-navbar-dropdown uk-padding-remove">
-                        <ul class="uk-nav uk-navbar-dropdown-nav uk-text-center user_acc">
+                    <div class="uk-navbar-dropdown uk-padding-remove box8">
+                        <div class="user_acc">
+                            <ul class="uk-list">
+                                <li>Email: <b>hai.lemanh.1310@gmail.com</b></li>
+                                <li>ID: <b>203</b></li>
+                                <li>Số dư: <span>2,301,011</span></li>
+                            </ul>
+                        </div>
+                        <ul class="uk-nav uk-navbar-dropdown-nav uk-text-center user_menu">
                             <li><a href="#">Tài khoản</a></li>
                             <li class="uk-active"><a href="#">Nạp coin</a></li>
                             <li><a href="#">Chuyển coin</a></li>

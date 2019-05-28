@@ -1,5 +1,5 @@
 <div id="my-id" uk-offcanvas="overlay: true; mode: push">
-    <div class="uk-offcanvas-bar uk-overflow-auto uk-flex uk-flex-column uk-height-viewport uk-padding-remove">
+    <div class="uk-offcanvas-bar uk-overflow-auto uk-flex uk-flex-column uk-padding-remove">
         <nav class="menu_m">
             <div class="uk-padding-small">
                 <div class="uk-grid-small user_info uk-flex-middle" uk-grid>
