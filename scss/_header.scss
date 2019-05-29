@@ -32,11 +32,16 @@
       background-color: #ededed;
       border-top: 1px solid #ffffff;
       color: #6b6b6b;
+      &:hover{
+        background-color: #fff;
+        color: #000000;
+
+      }
     }
     &.uk-active{
       a{
-        background-color: #fff;
-        color: #000000;
+        //background-color: #fff;
+        //color: #000000;
       }
     }
   }
@@ -62,4 +67,7 @@
 }
 .coin{
   height: 14px;
+}
+.box11{
+  border: 2px solid #ffffff;
 }

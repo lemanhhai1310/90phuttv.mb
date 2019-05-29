@@ -25,7 +25,7 @@
             <ul class="uk-navbar-nav">
                 <li>
                     <a href="#">
-                        <div class="uk-cover-container uk-border-circle">
+                        <div class="uk-cover-container uk-border-circle box11">
                             <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-1/p50x50/58551712_558791001311032_4407660791101128704_n.jpg?_nc_cat=101&_nc_oc=AQkAgoShI9Ogxh988U6FOz8BptadG-L9NflOXpU50nokMgUtviclFLUVB_1iY1MN1EQ&_nc_ht=scontent.fhan3-3.fna&oh=85961291b5986b127feb93ef87e5defc&oe=5D308A60" alt="" uk-cover>
                             <canvas width="30" height="30"></canvas>
                         </div>
@@ -40,7 +40,7 @@
                         </div>
                         <ul class="uk-nav uk-navbar-dropdown-nav uk-text-center user_menu">
                             <li><a href="#">Tài khoản</a></li>
-                            <li class="uk-active"><a href="#">Nạp coin</a></li>
+                            <li><a href="#">Nạp coin</a></li>
                             <li><a href="#">Chuyển coin</a></li>
                             <li><a href="#">Đăng xuất</a></li>
                         </ul>
@@ -128,7 +128,7 @@
     </div>
 </div>
 <div class="chat">
-    <ul id="toggle-usage" class="tab1 uk-child-width-expand uk-margin-remove-top uk-margin-remove-bottom uk-tab" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+    <ul id="toggle-usage" class="tab1 uk-child-width-expand uk-margin-remove-top uk-margin-remove-bottom uk-tab" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium; swiping: false;">
         <li><a class="uk-text-truncate" href="#">Trò chuyện</a></li>
         <li><a class="uk-text-truncate" href="#" uk-toggle="target: #toggle-usage">Thông số trận</a></li>
         <li><a class="uk-text-truncate" href="#" uk-toggle="target: #toggle-usage">Trận đấu khác</a></li>

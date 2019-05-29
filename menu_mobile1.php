@@ -15,7 +15,7 @@
                     </div>
                     <div class="uk-width-auto">
                         <div class="box9 uk-border-circle uk-flex uk-flex-middle uk-flex-center">
-                            <span uk-icon="user"></span>
+                            <i class="fa fa-user" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
