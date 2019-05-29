@@ -1,7 +1,7 @@
 <div id="my-id" uk-offcanvas="overlay: true; mode: push">
     <div class="uk-offcanvas-bar uk-overflow-auto uk-flex uk-flex-column uk-padding-remove">
         <nav class="menu_m">
-            <div class="uk-padding-small">
+            <div class="uk-padding-small" style="background-color: #000000;">
                 <div class="uk-grid-small user_info uk-flex-middle" uk-grid>
                     <div class="uk-width-auto">
                         <div class="uk-cover-container uk-border-circle">
@@ -14,7 +14,9 @@
                         <span>Thành viên</span>
                     </div>
                     <div class="uk-width-auto">
-
+                        <div class="box9 uk-border-circle uk-flex uk-flex-middle uk-flex-center">
+                            <span uk-icon="user"></span>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -23,6 +23,8 @@
   width: 250px;
   border-radius: 4px;
   overflow: hidden;
+  left: inherit !important;
+  right: 10px;
 }
 .user_menu{
   li{
@@ -57,4 +59,7 @@
       }
     }
   }
+}
+.coin{
+  height: 14px;
 }

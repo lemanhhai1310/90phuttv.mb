@@ -30,12 +30,12 @@
                             <canvas width="30" height="30"></canvas>
                         </div>
                     </a>
-                    <div class="uk-navbar-dropdown uk-padding-remove box8">
+                    <div class="uk-navbar-dropdown uk-padding-remove box8" uk-dropdown="pos: bottom-right">
                         <div class="user_acc">
                             <ul class="uk-list">
                                 <li>Email: <b>hai.lemanh.1310@gmail.com</b></li>
                                 <li>ID: <b>203</b></li>
-                                <li>Số dư: <span>2,301,011</span></li>
+                                <li>Số dư: <span>2,301,011</span> <img class="coin" src="imgs/coin.png" alt=""></li>
                             </ul>
                         </div>
                         <ul class="uk-nav uk-navbar-dropdown-nav uk-text-center user_menu">
@@ -131,7 +131,7 @@
     <ul id="toggle-usage" class="tab1 uk-child-width-expand uk-margin-remove-top uk-margin-remove-bottom uk-tab" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
         <li><a class="uk-text-truncate" href="#">Trò chuyện</a></li>
         <li><a class="uk-text-truncate" href="#" uk-toggle="target: #toggle-usage">Thông số trận</a></li>
-        <li><a class="uk-text-truncate" href="#">Trận đấu khác</a></li>
+        <li><a class="uk-text-truncate" href="#" uk-toggle="target: #toggle-usage">Trận đấu khác</a></li>
     </ul>
     <ul class="uk-switcher uk-height-1-1">
         <li><iframe class="boxchat1" src="http://themes.cathtmlcss.net/2019/05/chatbot/chat_mobile.php" width="100%"></iframe></li>
@@ -299,7 +299,223 @@
                 <li>3</li>
             </ul>
         </li>
-        <li>Bazinga!</li>
+        <li>
+            <div class="uk-grid-collapse" uk-grid>
+                <div class="uk-width-auto">
+                    <div class="info_tab">
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <ul class="tab1 tabcon uk-child-width-expand uk-margin-remove-top uk-margin-remove-bottom uk-tab" uk-tab="connect: #my-id2">
+                        <li><a class="uk-text-truncate" href="#">Đang diễn ra</a></li>
+                        <li><a class="uk-text-truncate" href="#">Đã diễn ra</a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-auto">
+                    <a href="#" class="back-tab" uk-switcher-item="0" uk-toggle="target: #toggle-usage"><span uk-icon="arrow-left"></span></a>
+                </div>
+            </div>
+            <ul class="uk-switcher" id="my-id2">
+                <li>
+                    <table class="uk-table table3 uk-margin-remove uk-table-middle uk-text-center uk-margin-remove uk-table-hover">
+                        <tbody>
+                        <?php
+                        $cars = array
+                        (
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'live' => '89',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'live' => '12',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'live' => '89',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'live' => '12',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'live' => '89',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'live' => '12',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'live' => '89',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'live' => '12',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'live' => '89',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'live' => '12',
+                            ),
+                        );
+                        foreach ($cars as $k => $v) { ?>
+                            <tr>
+                                <td><a href="#"><img src="<?= $v['giaidau'] ?>" alt=""></a></td>
+                                <td><a href="#"><img src="<?= $v['doi1'] ?>" alt=""></a></td>
+                                <td>
+                                    <div class="uk-position-relative">
+                                        <div class="tyso1">
+                                            <?= $v['tyso'] ?>
+                                        </div>
+                                        <div class="live1"><i class="fa fa-circle uk-text-middle" aria-hidden="true"></i> Phút <?= $v['live'] ?></div>
+                                        <div class="uk-invisible uk-position-center box10">
+                                            <a href="#" class="uk-button uk-button-primary">XEM</a>
+                                            <a href="#" class="uk-button uk-button-default">Cá cược</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><a href="#"><img src="<?= $v['doi2'] ?>" alt=""></a></td>
+                            </tr>
+                        <?php } ?>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <table class="uk-table table3 uk-table-middle uk-text-center uk-margin-remove uk-table-hover">
+                        <tbody>
+                        <?php
+                        $cars = array
+                        (
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/champions.png',
+                                'doi1' => 'imgs/doibong/db-arsenal.png',
+                                'doi2' => 'imgs/doibong/db-chelsea.png',
+                                'tyso' => '2 - 0',
+                                'time' => '20:00 19-05',
+                            ),
+                            array(
+                                'giaidau' => 'imgs/giaidau/laliga.png',
+                                'doi1' => 'imgs/doibong/db-barcelona.png',
+                                'doi2' => 'imgs/doibong/db-slavia.png',
+                                'tyso' => '0 - 1',
+                                'time' => '20:00 19-05',
+                            ),
+                        );
+                        foreach ($cars as $k => $v) { ?>
+                            <tr>
+                                <td><a href="#"><img src="<?= $v['giaidau'] ?>" alt=""></a></td>
+                                <td><a href="#"><img src="<?= $v['doi1'] ?>" alt=""></a></td>
+                                <td>
+                                    <div class="uk-position-relative">
+                                        <div class="tyso1">
+                                            <?= $v['tyso'] ?>
+                                        </div>
+                                        <div class="live1"><?= $v['time'] ?></div>
+                                        <div class="uk-invisible uk-position-center box10">
+                                            <a href="#" class="uk-button uk-button-primary">Highlight</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><a href="#"><img src="<?= $v['doi2'] ?>" alt=""></a></td>
+                            </tr>
+                        <?php } ?>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+        </li>
     </ul>
     <script>
         $(window).on('load', function() {
