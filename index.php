@@ -97,7 +97,7 @@
                 </div>
             </div>
         </div>
-        <div class="uk-width-expand">
+        <div class="uk-width-expand uk-overflow-auto">
             <div class="box4">
                 <?php
                 $data = array
